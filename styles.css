@@ -103,7 +103,7 @@ button {
 
 /* MEDIA QUERIES */
 
-@media screen and (max-width: 839px) {
+@media screen and (max-width: 920px) {
     label {
         font-size: 1rem;
     }
@@ -113,7 +113,7 @@ button {
     }
 
     h1 {
-        padding: 2rem 0rem;
+        padding: 1rem 0rem;
     }
 
     #form-div {
@@ -149,5 +149,9 @@ button {
 
     #form-div {
         height: 68vh;
+    }
+
+    h1 {
+        padding: 1rem 0rem;
     }
 }
