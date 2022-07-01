@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Contact-App</title>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Contacts</h1>
+    </div>
+    <form action="/nowhere" id="form">
+        <div class="form">
+            <label for="item">Enter Name:</label>
+            <input type="text" id="person" name="person" required>
+            <!-- <button id="btn">Save</button> -->
+            <div id="contact">
+                <label for="item">Enter Contact:</label>
+                <input type="tel" id="num" name="product" required minlength="10">
+                <button id="btn">Save</button>
+            </div>
+        </div>
+        <hr>
+    </form>
+    <div id="form-div">
+        <ol id="list" type="a">
+            <!-- <li>hello</li>
+            <li>hello</li> -->
+        </ol>
+    </div>
+    <footer class="footer">
+        <div class="footer-header">
+            <p>Created By Michelle Rathod</p>
+        </div>
+        <ul class="social-links list-non-bullet">
+            <li class="list-item-inline">
+                <a href="https://www.linkedin.com/in/michelle-rathod-351232194">LinkedIn</a>
+            </li>
+            <li class="list-item-inline">
+                <a href="https://github.com/michelle-rathod">GitHub</a>
+            </li>
+        </ul>
+    </footer>
+    <script src="app.js"></script>
+</body>
+
+</html>

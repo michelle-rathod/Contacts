@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fefce8;
+}
+
+/* NAVBAR */
+.header {
+    width: 100vw;
+    height: 11vh;
+    background-color: #fef08a;
+}
+
+h1 {
+    margin: auto;
+    padding: 1rem 0rem;
+    text-align: center;
+    font-size: 1.7rem;
+    color: black;
+}
+
+/* FORM MAIN CONTENT */
+.form {
+    margin: 2rem 1rem;
+}
+
+.button-new {
+    margin: 0 1rem;
+    border-radius: 0.3rem;
+    background-color: #fef08a;
+    border: 1px solid black;
+    color: black;
+    padding: 2px 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: large;
+}
+
+label {
+    font-size: 1.3rem;
+}
+
+input {
+    font-size: 1.3rem;
+}
+
+#form-div {
+    width: 100vw;
+    height: 54.9vh;
+}
+
+#list li {
+    font-size: 1.5rem;
+    /* margin-left: 2rem; */
+    padding: 0.2rem;
+}
+
+button {
+    border-radius: 0.3rem;
+    background-color: #fef08a;
+    border: 1px solid black;
+    color: black;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: medium;
+    margin: 2px 1px;
+}
+
+#contact {
+    display: inline-block;
+    margin: 0rem 2rem;
+}
+
+/* FOOTER */
+.footer {
+    background-color: #fef08a;
+    color: black;
+    padding: 0.4rem 1rem;
+    text-align: center;
+    margin: auto;
+    font-size: medium;
+}
+
+.footer .list-item-inline a {
+    color: black;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+}
+
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 839px) {
+    label {
+        font-size: 1rem;
+    }
+
+    input {
+        font-size: 1rem;
+    }
+
+    h1 {
+        padding: 2rem 0rem;
+    }
+
+    #form-div {
+        height: 65vh;
+    }
+
+    #list li {
+        font-size: 1.1rem;
+        /* margin-left: 2rem; */
+        padding: 0.2rem;
+    }
+
+    button {
+        padding: 2.5px 5px;
+    }
+
+    .button-new {
+        font-size: medium;
+    }
+
+}
+
+@media screen and (max-width: 752px) {
+    #contact {
+        display: block;
+        margin: 0rem;
+    }
+
+    #list li {
+        font-size: 1rem;
+        padding: 0.2rem;
+    }
+
+    #form-div {
+        height: 68vh;
+    }
+}
